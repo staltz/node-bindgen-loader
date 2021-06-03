@@ -13,10 +13,6 @@
   },
   "homepage": "https://github.com/staltz/node-bindgen-loader",
   "main": "index.js",
-  "bin": {
-    "node-bindgen-loader": "./bin.js",
-    "node-bindgen-loader-test": "./build-test.js"
-  },
   "devDependencies": {
     "array-shuffle": "^1.0.1",
     "standard": "^14.0.0",
