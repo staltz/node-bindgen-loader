@@ -1,6 +1,6 @@
 {
   "name": "node-bindgen-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bindings loader for node-bindgen that supports prebuilds",
   "repository": {
     "type": "git",
