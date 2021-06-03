@@ -1,0 +1,28 @@
+{
+  "name": "node-bindgen-loader",
+  "version": "1.0.0",
+  "description": "Bindings loader for node-bindgen that supports prebuilds",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/staltz/node-bindgen-loader.git"
+  },
+  "author": "Andre Staltz (staltz.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/staltz/node-bindgen-loader/issues"
+  },
+  "homepage": "https://github.com/staltz/node-bindgen-loader",
+  "main": "index.js",
+  "bin": {
+    "node-bindgen-loader": "./bin.js",
+    "node-bindgen-loader-test": "./build-test.js"
+  },
+  "devDependencies": {
+    "array-shuffle": "^1.0.1",
+    "standard": "^14.0.0",
+    "tape": "^5.0.0"
+  },
+  "scripts": {
+    "test": "standard && node test"
+  }
+}
